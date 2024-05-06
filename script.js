@@ -2,6 +2,8 @@
 let num1;
 let num2;
 let operator = "";
+let ans;
+let displayValue;
 
 
 // Calculator Functions
@@ -22,7 +24,9 @@ function multiply(a, b){
 
 // For division
 function divide(a, b){
-    return a / b;
+    if (b === 0) {
+        return "Error";
+    }
 }
 
 //////////////////////////////////
